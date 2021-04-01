@@ -1,0 +1,6 @@
+[submodule "FroceryWebsite"]
+	path = FroceryWebsite
+	url = https://github.com/monjemaica/FroceryWebsite.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/monjemaica/FroceryWebsite.git
