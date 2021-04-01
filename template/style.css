@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: poppins;
+}
+
+.product-list{
+  background-color: #dfe6ea;
+  padding:3em;
+}
+.aligncenter{
+  text-align: center;
+}
+.product-list .card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0px 10px 5px #b2bec3; 
+  text-align: center;
+  font-family: 'poppins';
+}
+
+.card .title{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.card img{
+  max-width:100%;
+  border-radius: 5px;
+}
+
+.card .text{
+  text-align: start;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  font-size: 13px;
+  padding: 0px;
+  color: #999999;
+}
+
+.buy-button{
+  background-color: #f9ca24;
+  border:none;
+  padding:1em;
+  border-radius:5px;
+  font-weight: bold;
+  width: 100%; 
+}
+.buy-button:hover{
+ box-shadow: 0px 10px 5px #b2bec3;
+ color: #eb4b4b;
+}
+
+.product-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+
+}
+
+/* CHIP */
+.chip {
+  padding: 0 5px;
+  max-width: 18%;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 25px;
+  background-color: #eb4b4b;
+  color: white;
+  margin-bottom: 5px;
+  float: right;
+}
